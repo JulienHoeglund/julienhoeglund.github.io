@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Julien Hoeglund - Start small then expand</title>
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<div class="col-3 menu">
+			<button onclick="dropFunction()" class="dropbtn" value="click" >
+				<img src="img/dropdown.png" alt="menu">
+			</button>
+			<a id="home" href="index.html"><h2>Julien Hoeglund</h2></a>
+			<p id="sub"> Start small then expand</p>
+			<ul id="dropdown" class="dropdown-content">
+				<li><a href="competences.html"><h3>Compétences</h3></a></li>
+				<li><a href="real.html"><h3>Réalisations</h3></a></li>
+				<li><a href="interets.html"><h3>Centres d'intérêt</h3></a></li>
+				<li id="contact"><a href="contact.html" class="contact"><h3 class="active" >Me contacter</h3></a></li>
+			</ul>
+		<div class="col-12 footer2">
+			<ul id="contactbar2">
+				<li>
+					<form action="mailto:julien.hoeglund@protonmail.com" method="GET">
+						<button id="mailbutton2">
+							<img src="img/Gmail_Icon.png" alt="mail" id="mail2">
+						</button>
+					</form>
+				</li>
+				<li>
+					<form action="https://www.linkedin.com/in/julien-hoeglund-159434156/">
+						<button id="linkedinbutton2"> 
+							<img src="img/in.png" alt="linkedin" id="linkedin2">
+						</button>
+					</form>	
+				</li>
+			</ul>
+		</div>
+		</div>
+			<div class="col-9 textsection">
+				<h1>Me contacter par message direct</h1>
+    			<p>Je vous répondrai le jour-même</p>
+    			
+    			<p>*Veuillez remplir les champs obligatoires</p>
+            <div id="formulaire">
+    			<br> 
+    			<form action="mailto:julien.hoeglund@protonmail.com" method="post" enctype="text/plain" >
+    				<label for="prenom">Prenom</label>
+    				<input type="text" name="prenom">
+    				<br>
+    				<label id="nom" for="nom"> Nom*</label>
+    				<input type="text" name="nom">  			 		
+    				<div id="radio">
+    					<label for="prenom">M.</label>
+    					<input class="radio" type="radio" name="genre" value="M.">
+    					<input class="radio" type="radio" name="genre" value="Mme">
+    					<label for="prenom">Mme	</label>
+    				</div>
+    				<label for="mail">Adresse mail*</label>
+    				<input type="text" name="mail"> 
+    				<br>
+    				<br>
+    				<label for="objet">Objet</label>
+    				<input type="text" name="objet">
+    				<br><br><br>
+    				<label id="msg" for="message">Message*</label>
+    				<input id ="form_message" type="textarea" name="message">
+    				<input id ="envoi" type="submit" value="Envoyer"> 
+    			</form>
+    			<div id="footer">
+    				<p>Julien Hoeglund © 2018</p>
+    				<img id="logo" src="img/logo.svg">
+    			</div>
+    		</div>
+		</div>
+		<div class="row">
+			<div class="col-12 footer">
+				<ul id="contactbar">
+					<li>
+						<form action="mailto:julien.hoeglund@protonmail.com">
+							<button id="mailbutton" >
+							<img src="img/Gmail_Icon.png" alt="mail" id="mail">
+							</button>
+						</form>
+					</li>
+					<li>
+						<form action="https://www.linkedin.com/in/julien-hoeglund-159434156/">
+							<button id="linkedinbutton"> 
+								<img src="img/in.png" alt="linkedin" id="linkedin">
+							</button>
+						</form>	
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</body>
+</html> 
